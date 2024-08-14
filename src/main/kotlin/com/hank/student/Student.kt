@@ -16,7 +16,15 @@ fun main() {
 
 class Student(var name: String?, var english: Int, var math: Int) {
     fun print() {
-        println(name + "\t" + english + "\t" + math + "\t" + (english + math) / 2)
+        println(
+            name + "\t" + english + "\t" + math + "\t" +
+                    "\t" + getAverage() + "\t" +
+                    if (getAverage() >= 60) "PASS" else "FAILED"
+        )
+    }
+
+    private fun getAverage(): Int {
+        return (english + math) / 2
     }
 
     fun highest(): Int {
