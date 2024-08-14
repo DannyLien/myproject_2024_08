@@ -7,7 +7,7 @@ public class StrudentRunner {
 
     public static void main(String[] args) {
 //        userInput();
-        Student stu = new Student("Hank", 77, 99);
+        Student stu = new Student("Hank", 90, 99);
         stu.print();
         System.out.println("High score : " + stu.higest());
 
