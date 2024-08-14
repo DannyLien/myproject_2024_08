@@ -1,7 +1,5 @@
 package com.hank;
 
-import com.homeworkjava.Dice;
-
 
 public class Hello {
 
@@ -12,8 +10,19 @@ public class Hello {
         p.hello();
         System.out.println(p.bmi());
         System.out.println(p.name);
+        int score = 88;
+        System.out.println(score > 60);
+        System.out.println(score < 60);
+        System.out.println(score == 60);
+        System.out.println(score >= 60);
+        System.out.println(score <= 60);
+        System.out.println(score > 80 && score < 90);
+        System.out.println(score < 80 || score > 90);
+        char c = 'A';
+        System.out.println((c > 60)+"  c > 60" );
+        System.out.println((c > 'a')+"  c > a");
 
-//        Dice d = new Dice();
+//        com.homeworkkotlin.Dice d = new com.homeworkkotlin.Dice();
 //        System.out.println(d.max);
 //        System.out.println(d.point);
 

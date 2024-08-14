@@ -1,6 +1,3 @@
-package com.hank
-
-
 fun main() {
 //    println("Kotlin Hello word")
 //    Human().hello()
@@ -8,12 +5,17 @@ fun main() {
     h.hello()
     println(h.bmi())
     println(h.name)
+    val score = 88
+    println("${(score > 60)}   score > 60")
+    val c: Char = 'A'
+    println("${c.toInt() > 60}   c.toInt() > 60")
+
 //    var age = 19
 //    age = 20
 //    var wieght = 66.5f
 //    var name: String
 //    name = "Hank"
-//    val d = Dice()
+//    val d = com.homeworkkotlin.Dice()
 //    println(d.max)
 //    println(d.point)
 }
