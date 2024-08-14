@@ -3,6 +3,13 @@ package com.hank
 fun main() {
 //    println("Kotlin Hello word")
 //    Human().hello()
+
+    var s: String? = "abcde"
+    s = null
+    println("${s?.length}  s.length")
+    println("${s?.get(3)}  s.get(3)")
+    println("${s?.substring(3)}  s.substring")
+
     val h = Human("Tom", weight = 66.5f, height = 1.7f)
     h.hello()
     println(h.bmi())

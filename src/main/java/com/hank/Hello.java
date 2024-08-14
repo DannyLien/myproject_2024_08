@@ -6,6 +6,14 @@ public class Hello {
     public static void main(String[] args) {
 //        System.out.println("Java Hello word");
 //        new Person().hello();
+
+        String s = "abcde";
+//        String s = null;
+        System.out.println(s.charAt(3)+"  s.charAt");
+//        System.out.println(s.length());
+//        System.out.println(s.substring(3));
+        System.out.println(s.substring(1, 4)+"  s.substring");
+
         Person p = new Person("Tom", 66.5f, 1.7f);
         p.hello();
         System.out.println(p.bmi());
@@ -19,8 +27,8 @@ public class Hello {
         System.out.println(score > 80 && score < 90);
         System.out.println(score < 80 || score > 90);
         char c = 'A';
-        System.out.println((c > 60)+"  c > 60" );
-        System.out.println((c > 'a')+"  c > a");
+        System.out.println((c > 60) + "  c > 60");
+        System.out.println((c > 'a') + "  c > a");
 
 //        com.homeworkkotlin.Dice d = new com.homeworkkotlin.Dice();
 //        System.out.println(d.max);
