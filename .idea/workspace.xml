@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="3-3, Java Kotlin 建構子, 次要建構子;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/student/StrudentRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/hank/student/Student.kt" afterDir="false" />
+    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="3-5, 設計類別:有屬性+建構子+方法, 案例+整合;">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Hello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homeworkkotlin/Dice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/homeworkkotlin/Dice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/student/StrudentRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/student/StrudentRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/hank/Hello.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/hank/student/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/hank/student/Student.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ALL-Project\IdeaProjects\myproject_2024_08\src\main\kotlin\com\hank\student" />
+      <recent name="D:\ALL-Project\IdeaProjects\myproject_2024_08\src\main\kotlin\com\hank" />
+      <recent name="D:\ALL-Project\IdeaProjects\myproject_2024_08\src\main\kotlin\com" />
       <recent name="D:\ALL-Project\IdeaProjects\myproject_2024_08\src\main\kotlin" />
       <recent name="D:\ALL-Project\IdeaProjects\myproject_2024_08\src\main\kotlin\com\homeworkkotlin" />
     </key>
@@ -63,8 +64,12 @@
       <recent name="com.homeworkkotlin" />
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hank" />
+      <recent name="com.hank.student" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.StudentKt">
+  <component name="RunManager" selected="Kotlin.StudentKt (1)">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hank.Hello" />
       <module name="myproject_2024_08.main" />
@@ -83,7 +88,7 @@
       <module name="myproject_2024_08.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hank.student.*" />
+          <option name="PATTERN" value="com.hank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,7 +97,14 @@
       </method>
     </configuration>
     <configuration name="HelloKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloKt" />
+      <option name="MAIN_CLASS_NAME" value="com.hank.HelloKt" />
+      <module name="myproject_2024_08.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hank.kotlin.StudentKt" />
       <module name="myproject_2024_08.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.StudentKt (1)" />
         <item itemvalue="Kotlin.StudentKt" />
         <item itemvalue="Application.StrudentRunner" />
         <item itemvalue="Kotlin.HelloKt" />
@@ -171,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723604186856</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="3-5, 設計類別:有屬性+建構子+方法, 案例+整合;">
+      <option name="closed" value="true" />
+      <created>1723617635165</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723617635165</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +213,7 @@
     <MESSAGE value="3-1, 類別屬性 Property, Java &amp; Kotlin 數值運算;" />
     <MESSAGE value="作業一, 初次設計類別作業" />
     <MESSAGE value="3-3, Java Kotlin 建構子, 次要建構子;" />
-    <option name="LAST_COMMIT_MESSAGE" value="3-3, Java Kotlin 建構子, 次要建構子;" />
+    <MESSAGE value="3-5, 設計類別:有屬性+建構子+方法, 案例+整合;" />
+    <option name="LAST_COMMIT_MESSAGE" value="3-5, 設計類別:有屬性+建構子+方法, 案例+整合;" />
   </component>
 </project>
