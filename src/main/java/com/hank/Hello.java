@@ -3,21 +3,19 @@ package com.hank;
 import com.homeworkjava.Dice;
 
 
-
 public class Hello {
 
     public static void main(String[] args) {
 //        System.out.println("Java Hello word");
 //        new Person().hello();
-        Person p = new Person();
+        Person p = new Person("Tom", 66.5f, 1.7f);
         p.hello();
-        p.weight = 66.5f;
-        p.height = 1.7f;
         System.out.println(p.bmi());
+        System.out.println(p.name);
 
-        Dice d = new Dice();
-        System.out.println(d.max);
-        System.out.println(d.point);
+//        Dice d = new Dice();
+//        System.out.println(d.max);
+//        System.out.println(d.point);
 
 //        int age = 19;
 //        Integer age2 = 20;
