@@ -12,6 +12,16 @@ public class Student {
         this.math = math;
     }
 
+    public int higest() {
+//        int max = (english > math) ? english : math;
+//        if (english > math) {
+//            max = english;
+//        } else {
+//            max = math;
+//        }
+        return (english > math) ? english : math;
+    }
+
     public void print() {
         System.out.println(name + "\t" + english + "\t" + math + "\t" + (english + math) / 2);
 

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="4-1, 活用Java 猿聲類別 Scanner, 重音 ` ;">
+    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="4-2, 活用 String字串資料型態與 Kotlin的 null檢查;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/hank/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/hank/Hello.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/student/StrudentRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/student/StrudentRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/student/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/hank/student/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/hank/student/Student.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723619565906</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="4-2, 活用 String字串資料型態與 Kotlin的 null檢查;">
+      <option name="closed" value="true" />
+      <created>1723621925183</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723621925183</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +230,7 @@
     <MESSAGE value="3-3, Java Kotlin 建構子, 次要建構子;" />
     <MESSAGE value="3-5, 設計類別:有屬性+建構子+方法, 案例+整合;" />
     <MESSAGE value="4-1, 活用Java 猿聲類別 Scanner, 重音 ` ;" />
-    <option name="LAST_COMMIT_MESSAGE" value="4-1, 活用Java 猿聲類別 Scanner, 重音 ` ;" />
+    <MESSAGE value="4-2, 活用 String字串資料型態與 Kotlin的 null檢查;" />
+    <option name="LAST_COMMIT_MESSAGE" value="4-2, 活用 String字串資料型態與 Kotlin的 null檢查;" />
   </component>
 </project>
