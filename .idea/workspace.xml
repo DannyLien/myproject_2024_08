@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="2-3, 變數, 資料型態, 初始值, 給值;">
+    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="3-1, 類別屬性 Property, Java &amp; Kotlin 數值運算;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homeworkjava/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homeworkkotlin/Dice.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/Hello.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/Hello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -108,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723542393474</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3-1, 類別屬性 Property, Java &amp; Kotlin 數值運算;">
+      <option name="closed" value="true" />
+      <created>1723543837772</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723543837772</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +136,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="2-1, 設計認類別 class" />
     <MESSAGE value="2-3, 變數, 資料型態, 初始值, 給值;" />
-    <option name="LAST_COMMIT_MESSAGE" value="2-3, 變數, 資料型態, 初始值, 給值;" />
+    <MESSAGE value="3-1, 類別屬性 Property, Java &amp; Kotlin 數值運算;" />
+    <option name="LAST_COMMIT_MESSAGE" value="3-1, 類別屬性 Property, Java &amp; Kotlin 數值運算;" />
   </component>
 </project>

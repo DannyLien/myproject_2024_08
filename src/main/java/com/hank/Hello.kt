@@ -1,5 +1,7 @@
 package com.hank
 
+import com.homeworkkotlin.Dice
+
 
 fun main() {
 //    println("Kotlin Hello word")
@@ -12,7 +14,9 @@ fun main() {
 //    var wieght = 66.5f
 //    var name: String
 //    name = "Hank"
-
+    val d = Dice()
+    println(d.max)
+    println(d.point)
 }
 
 class Human(var weight: Float, var height: Float) {

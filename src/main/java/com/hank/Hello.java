@@ -1,5 +1,9 @@
 package com.hank;
 
+import com.homeworkjava.Dice;
+
+
+
 public class Hello {
 
     public static void main(String[] args) {
@@ -7,9 +11,13 @@ public class Hello {
 //        new Person().hello();
         Person p = new Person();
         p.hello();
-        p.weight=66.5f;
-        p.height=1.7f;
+        p.weight = 66.5f;
+        p.height = 1.7f;
         System.out.println(p.bmi());
+
+        Dice d = new Dice();
+        System.out.println(d.max);
+        System.out.println(d.point);
 
 //        int age = 19;
 //        Integer age2 = 20;
