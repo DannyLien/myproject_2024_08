@@ -5,7 +5,7 @@ import kotlin.math.max
 
 fun main() {
 //    userInput()
-    val stu = Student("Hank", 77, 99)
+    val stu = Student("Hank", 60, 99)
     stu.print()
     var test = 123
     println("Test is : $test")
@@ -16,31 +16,30 @@ fun main() {
 
 class Student(var name: String?, var english: Int, var math: Int) {
     fun print() {
-        println(
-            name + "\t" + english + "\t" + math + "\t" +
-                    "\t" + getAverage() + "\t" +
-                    if (getAverage() >= 60) "PASS" else "FAILED"
-        )
+        println("$name\t$english\t$math\t${getAverage()}\t${passOrFailed()}\t${grading()}")
     }
 
-    private fun getAverage(): Int {
-        return (english + math) / 2
+    fun grading() = when (getAverage()) {
+        in 90..100 -> 'A'
+        in 80..89 -> 'B'
+        in 70..79 -> 'C'
+        in 60..69 -> 'D'
+        else -> 'F'
     }
 
-    fun highest(): Int {
-        var max = if (english > math) {
-            println("english")
-            english
-        } else {
-            println("math")
-            math
-        }
-        return max
+    fun passOrFailed() = if (getAverage() >= 60) "PASS" else "FAILED"
+
+    private fun getAverage() = (english + math) / 2
+
+    fun highest() = if (english > math) {
+        println("english")
+        english
+    } else {
+        println("math")
+        math
     }
 
-    fun nameCheck() {
-        println(name?.length)
-    }
+    fun nameCheck() = name?.length
 
 }
 

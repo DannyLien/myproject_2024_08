@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="4-4, 學生平均 PASS 或 FAILED;">
+    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="5-1, Java switch..case;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/student/StrudentRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/student/StrudentRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/student/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/hank/student/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/hank/student/Student.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <recent name="com.hank.student" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StrudentRunner">
+  <component name="RunManager" selected="Kotlin.StudentKt (1)">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hank.Hello" />
       <module name="myproject_2024_08.main" />
@@ -222,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723625787885</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="5-1, Java switch..case;">
+      <option name="closed" value="true" />
+      <created>1723627315460</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723627315460</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +255,7 @@
     <MESSAGE value="4-2, 活用 String字串資料型態與 Kotlin的 null檢查;" />
     <MESSAGE value="4-3, 程式流程控制, java 三元運算式;" />
     <MESSAGE value="4-4, 學生平均 PASS 或 FAILED;" />
-    <option name="LAST_COMMIT_MESSAGE" value="4-4, 學生平均 PASS 或 FAILED;" />
+    <MESSAGE value="5-1, Java switch..case;" />
+    <option name="LAST_COMMIT_MESSAGE" value="5-1, Java switch..case;" />
   </component>
 </project>
