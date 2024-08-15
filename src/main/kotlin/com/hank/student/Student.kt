@@ -29,7 +29,7 @@ class Student(var name: String?, var english: Int, var math: Int) {
 
     fun passOrFailed() = if (getAverage() >= 60) "PASS" else "FAILED"
 
-    private fun getAverage() = (english + math) / 2
+    fun getAverage() = (english + math) / 2
 
     fun highest() = if (english > math) {
         println("english")
