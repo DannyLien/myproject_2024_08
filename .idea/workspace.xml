@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="5-4, 撰寫測試程式; juniter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/guess/GameFor.java" afterDir="false" />
+    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="5-5, 固定次數重複執行;">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/hank/GameFor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/guess/GameFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/guess/GameFor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="myproject_2024_08" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -32,8 +44,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -59,7 +71,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ALL-Project/IdeaProjects/myproject_2024_08&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2105869&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
@@ -83,13 +96,10 @@
       <recent name="com.hank.student" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GameFor">
+  <component name="RunManager" selected="Kotlin.GameForKt">
     <configuration name="GameFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="temurin-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <envs>
-        <env name="-Dfile.encoding" value="UTF-8" />
-      </envs>
       <option name="MAIN_CLASS_NAME" value="com.hank.guess.GameFor" />
       <module name="myproject_2024_08.main" />
       <extension name="coverage">
@@ -123,31 +133,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="PersonTest.bmiTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.hank.kotlin.PersonTest.bmiTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="StudentTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -171,7 +157,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="StudentTest.highestTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -195,23 +181,30 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
+    </configuration>
+    <configuration name="GameForKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hank.GameForKt" />
+      <module name="myproject_2024_08.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.GameFor" />
-      <item itemvalue="Gradle.PersonTest.bmiTest (1)" />
       <item itemvalue="Gradle.PersonTest (1)" />
       <item itemvalue="Gradle.StudentTest.highestTest" />
       <item itemvalue="Gradle.StudentTest (1)" />
+      <item itemvalue="Kotlin.GameForKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.GameForKt" />
         <item itemvalue="Application.GameFor" />
         <item itemvalue="Gradle.StudentTest (1)" />
         <item itemvalue="Gradle.StudentTest.highestTest" />
         <item itemvalue="Gradle.PersonTest (1)" />
-        <item itemvalue="Gradle.PersonTest.bmiTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723700714135</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="5-5, 固定次數重複執行;">
+      <option name="closed" value="true" />
+      <created>1723784179021</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723784179021</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,7 +366,8 @@
     <MESSAGE value="5-1, Java switch..case;" />
     <MESSAGE value="5-3, Java &amp;&amp; Kotlin guess Game use while();" />
     <MESSAGE value="5-4, 撰寫測試程式; juniter" />
-    <option name="LAST_COMMIT_MESSAGE" value="5-4, 撰寫測試程式; juniter" />
+    <MESSAGE value="5-5, 固定次數重複執行;" />
+    <option name="LAST_COMMIT_MESSAGE" value="5-5, 固定次數重複執行;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
