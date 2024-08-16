@@ -5,8 +5,13 @@ import kotlin.math.max
 
 fun main() {
 //    userInput()
+    Student.pass = 50
     val stu = Student("Hank", 60, 99)
+    val stu2 = Student("Jane", 44, 68)
+    val stu3 = Student("Eric", 30, 49)
     stu.print()
+    stu2.print()
+    stu3.print()
     var test = 123
     println("Test is : $test")
     println("High score: ${stu.highest()}")
@@ -15,6 +20,14 @@ fun main() {
 
 
 class Student(var name: String?, var english: Int, var math: Int) {
+    companion object {
+        @JvmStatic
+        var pass = 60
+        fun test() {
+            println("testing")
+        }
+    }
+
     fun print() {
         println("$name\t$english\t$math\t${getAverage()}\t${passOrFailed()}\t${grading()}")
     }
@@ -27,7 +40,7 @@ class Student(var name: String?, var english: Int, var math: Int) {
         else -> 'F'
     }
 
-    fun passOrFailed() = if (getAverage() >= 60) "PASS" else "FAILED"
+    fun passOrFailed() = if (getAverage() >= pass) "PASS" else "FAILED"
 
     fun getAverage() = (english + math) / 2
 

@@ -7,8 +7,14 @@ public class StrudentRunner {
 
     public static void main(String[] args) {
 //        userInput();
-        Student stu = new Student("Hank", 90, 99);
+//        Student.pass = 50;
+        Student.pass = com.hank.kotlin.Student.getPass();
+        Student stu = new Student("Hank", 97, 10);
+        Student stu2 = new Student("Eric", 60, 40);
+        Student stu3 = new Student("Jane", 30, 55);
         stu.print();
+        stu2.print();
+        stu3.print();
         System.out.println("High score : " + stu.higest());
 
     }
