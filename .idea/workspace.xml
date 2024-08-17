@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="6-6, 介面, 抽象類別, 多型應用, Game539, BigGame, Java Kotlin 不同層級存取;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/hank/Ticket.kt" afterDir="false" />
+    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="7-1, Java data bin pojo, Kotlin data class Extensions;">
+      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/io/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,7 +95,7 @@
       <recent name="com.hank.student" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TicketKt">
+  <component name="RunManager" selected="Application.Tester">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hank.Hello" />
       <module name="myproject_2024_08.main" />
@@ -122,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrudentRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hank.student.StrudentRunner" />
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hank.io.Tester" />
       <module name="myproject_2024_08.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hank.student.*" />
+          <option name="PATTERN" value="com.hank.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,17 +152,17 @@
     <list>
       <item itemvalue="Application.Hello" />
       <item itemvalue="Application.ReportTester" />
-      <item itemvalue="Application.StrudentRunner" />
+      <item itemvalue="Application.Tester" />
       <item itemvalue="Kotlin.TicketKt" />
       <item itemvalue="Kotlin.StudentKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tester" />
         <item itemvalue="Kotlin.TicketKt" />
         <item itemvalue="Application.ReportTester" />
         <item itemvalue="Application.Hello" />
         <item itemvalue="Kotlin.StudentKt" />
-        <item itemvalue="Application.StrudentRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723899770814</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="7-1, Java data bin pojo, Kotlin data class Extensions;">
+      <option name="closed" value="true" />
+      <created>1723901443301</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723901443301</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -361,7 +369,8 @@
     <MESSAGE value="6-3, Java 的類別 List Set Map, static companion object;" />
     <MESSAGE value="6-4, 繼承, 研究生案例;" />
     <MESSAGE value="6-6, 介面, 抽象類別, 多型應用, Game539, BigGame, Java Kotlin 不同層級存取;" />
-    <option name="LAST_COMMIT_MESSAGE" value="6-6, 介面, 抽象類別, 多型應用, Game539, BigGame, Java Kotlin 不同層級存取;" />
+    <MESSAGE value="7-1, Java data bin pojo, Kotlin data class Extensions;" />
+    <option name="LAST_COMMIT_MESSAGE" value="7-1, Java data bin pojo, Kotlin data class Extensions;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
