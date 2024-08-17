@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="6-4, 繼承, 研究生案例;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/FinanceReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/HealthReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/ReportTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/lottery/BigGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/lottery/Game539.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/lottery/NumberGame.java" afterDir="false" />
+    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="6-6, 介面, 抽象類別, 多型應用, Game539, BigGame, Java Kotlin 不同層級存取;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/hank/Ticket.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/student/StrudentRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/student/StrudentRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/student/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hank/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hank/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -104,7 +95,7 @@
       <recent name="com.hank.student" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReportTester">
+  <component name="RunManager" selected="Kotlin.TicketKt">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hank.Hello" />
       <module name="myproject_2024_08.main" />
@@ -144,15 +135,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hank.ManyKt" />
+    <configuration name="StudentKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hank.kotlin.StudentKt" />
       <module name="myproject_2024_08.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hank.kotlin.StudentKt" />
+    <configuration name="TicketKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kotlin.TicketKt" />
       <module name="myproject_2024_08.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,16 +153,16 @@
       <item itemvalue="Application.Hello" />
       <item itemvalue="Application.ReportTester" />
       <item itemvalue="Application.StrudentRunner" />
-      <item itemvalue="Kotlin.ManyKt" />
+      <item itemvalue="Kotlin.TicketKt" />
       <item itemvalue="Kotlin.StudentKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TicketKt" />
         <item itemvalue="Application.ReportTester" />
         <item itemvalue="Application.Hello" />
         <item itemvalue="Kotlin.StudentKt" />
         <item itemvalue="Application.StrudentRunner" />
-        <item itemvalue="Kotlin.ManyKt" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723813809614</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="6-6, 介面, 抽象類別, 多型應用, Game539, BigGame, Java Kotlin 不同層級存取;">
+      <option name="closed" value="true" />
+      <created>1723899770814</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723899770814</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -361,7 +360,8 @@
     <MESSAGE value="5-5, 固定次數重複執行, Java Kotlin For 迴圈練習;" />
     <MESSAGE value="6-3, Java 的類別 List Set Map, static companion object;" />
     <MESSAGE value="6-4, 繼承, 研究生案例;" />
-    <option name="LAST_COMMIT_MESSAGE" value="6-4, 繼承, 研究生案例;" />
+    <MESSAGE value="6-6, 介面, 抽象類別, 多型應用, Game539, BigGame, Java Kotlin 不同層級存取;" />
+    <option name="LAST_COMMIT_MESSAGE" value="6-6, 介面, 抽象類別, 多型應用, Game539, BigGame, Java Kotlin 不同層級存取;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
