@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="7-3, Java FileUnputStream Read data.txt;">
+    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="7-4, 使用緩衝區 BufferedReader{} readLine();">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/io/WriteTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/io/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/io/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/io/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/io/ReadTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,13 +95,26 @@
       <recent name="com.hank.student" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tester">
+  <component name="RunManager" selected="Application.WriteTester">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hank.Hello" />
       <module name="myproject_2024_08.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hank.io.ReadTester" />
+      <module name="myproject_2024_08.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hank.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hank.io.Tester" />
+    <configuration name="WriteTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hank.io.WriteTester" />
       <module name="myproject_2024_08.main" />
       <extension name="coverage">
         <pattern>
@@ -131,13 +144,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hank.kotlin.StudentKt" />
-      <module name="myproject_2024_08.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,18 +157,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Hello" />
+      <item itemvalue="Application.ReadTester" />
       <item itemvalue="Application.ReportTester" />
-      <item itemvalue="Application.Tester" />
+      <item itemvalue="Application.WriteTester" />
       <item itemvalue="Kotlin.TicketKt" />
-      <item itemvalue="Kotlin.StudentKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tester" />
+        <item itemvalue="Application.WriteTester" />
+        <item itemvalue="Application.ReadTester" />
         <item itemvalue="Kotlin.TicketKt" />
         <item itemvalue="Application.ReportTester" />
         <item itemvalue="Application.Hello" />
-        <item itemvalue="Kotlin.StudentKt" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723904742659</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="7-4, 使用緩衝區 BufferedReader{} readLine();">
+      <option name="closed" value="true" />
+      <created>1723907562898</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723907562898</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -388,7 +402,8 @@
     <MESSAGE value="7-1, Java data bin pojo, Kotlin data class Extensions;" />
     <MESSAGE value="7-2, Java File IO 例外處理:" />
     <MESSAGE value="7-3, Java FileUnputStream Read data.txt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="7-3, Java FileUnputStream Read data.txt;" />
+    <MESSAGE value="7-4, 使用緩衝區 BufferedReader{} readLine();" />
+    <option name="LAST_COMMIT_MESSAGE" value="7-4, 使用緩衝區 BufferedReader{} readLine();" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
