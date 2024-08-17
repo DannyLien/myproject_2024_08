@@ -17,7 +17,7 @@ public class StrudentRunner {
         stu.print();
         stu2.print();
         stu3.print();
-        System.out.println("High score : " + stu.higest());
+        System.out.println("High score : " + stu.highest());
 
     }
 
@@ -31,7 +31,7 @@ public class StrudentRunner {
         int math = scanner.nextInt();
         Student stu = new Student(name, english, math);
         stu.print();
-        System.out.println("High score : " + stu.higest());
+        System.out.println("High score : " + stu.highest());
     }
 
 

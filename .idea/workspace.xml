@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="6-3, Java 的類別 List Set Map, static companion object;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/student/GraduateStudent.java" afterDir="false" />
+    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="6-4, 繼承, 研究生案例;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/FinanceReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/HealthReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/ReportTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/lottery/BigGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/lottery/Game539.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/lottery/NumberGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/Hello.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/student/StrudentRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/student/StrudentRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/hank/student/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/hank/student/Student.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/student/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hank/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hank/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +104,33 @@
       <recent name="com.hank.student" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.StudentKt">
+  <component name="RunManager" selected="Application.ReportTester">
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hank.Hello" />
+      <module name="myproject_2024_08.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hank.ReportTester" />
+      <module name="myproject_2024_08.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StrudentRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hank.student.StrudentRunner" />
       <module name="myproject_2024_08.main" />
@@ -106,26 +140,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hank.many.Tester" />
-      <module name="myproject_2024_08.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hank.many.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameForKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hank.GameForKt" />
-      <module name="myproject_2024_08.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,19 +159,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Hello" />
+      <item itemvalue="Application.ReportTester" />
       <item itemvalue="Application.StrudentRunner" />
-      <item itemvalue="Application.Tester" />
-      <item itemvalue="Kotlin.GameForKt" />
       <item itemvalue="Kotlin.ManyKt" />
       <item itemvalue="Kotlin.StudentKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReportTester" />
+        <item itemvalue="Application.Hello" />
         <item itemvalue="Kotlin.StudentKt" />
         <item itemvalue="Application.StrudentRunner" />
         <item itemvalue="Kotlin.ManyKt" />
-        <item itemvalue="Application.Tester" />
-        <item itemvalue="Kotlin.GameForKt" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723811010074</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="6-4, 繼承, 研究生案例;">
+      <option name="closed" value="true" />
+      <created>1723813809614</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723813809614</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +360,8 @@
     <MESSAGE value="5-5, 固定次數重複執行;" />
     <MESSAGE value="5-5, 固定次數重複執行, Java Kotlin For 迴圈練習;" />
     <MESSAGE value="6-3, Java 的類別 List Set Map, static companion object;" />
-    <option name="LAST_COMMIT_MESSAGE" value="6-3, Java 的類別 List Set Map, static companion object;" />
+    <MESSAGE value="6-4, 繼承, 研究生案例;" />
+    <option name="LAST_COMMIT_MESSAGE" value="6-4, 繼承, 研究生案例;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

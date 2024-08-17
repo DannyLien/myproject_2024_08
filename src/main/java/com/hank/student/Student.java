@@ -13,7 +13,7 @@ public class Student {
         this.math = math;
     }
 
-    public int higest() {
+    public int highest() {
         return (english > math) ? english : math;
     }
 

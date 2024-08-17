@@ -1,12 +1,15 @@
 package com.hank;
 
 
+import com.hank.kotlin.Student;
+
 public class Hello {
 
     public static void main(String[] args) {
 //        System.out.println("Java Hello word");
 //        new Person().hello();
-
+        Student stu = new Student("Hank", 50,60);
+        stu.highest();
         String s = "abcde";
 //        String s = null;
         System.out.println(s.charAt(3)+"  s.charAt");
@@ -36,8 +39,8 @@ public class Hello {
 
 //        int age = 19;
 //        Integer age2 = 20;
-//        char c = '§Ú';
-//        Character c2 = c;
+//        char c1 = 'æˆ‘';
+//        Character c2 = c1;
 //        byte b = 120;
 //        float wieght = 66.5f;
 //        float height = 1.7f;

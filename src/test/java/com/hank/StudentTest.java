@@ -9,7 +9,7 @@ public class StudentTest {
     @Test
     void highestTest() {
         Student student = new Student("Hank", 60, 80);
-        Assertions.assertEquals(80, student.higest());
+        Assertions.assertEquals(80, student.highest());
     }
 
     @Test
