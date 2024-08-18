@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="7-5, Java 輸出到檔案, mkdir建立檔案夾;">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/hank/FileTester.kt" afterDir="false" />
+    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="7-6, 活用 Kotlin 的檔案輸出與輸入;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/network/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/hank/JSONReader.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +95,7 @@
       <recent name="com.hank.student" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.FileTesterKt">
+  <component name="RunManager" selected="Kotlin.JSONReaderKt">
     <configuration name="ReadTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hank.io.ReadTester" />
       <module name="myproject_2024_08.main" />
@@ -108,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReportTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hank.ReportTester" />
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hank.network.Tester" />
       <module name="myproject_2024_08.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hank.*" />
+          <option name="PATTERN" value="com.hank.network.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,27 +142,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kotlin.TicketKt" />
+    <configuration name="JSONReaderKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hank.JSONReaderKt" />
       <module name="myproject_2024_08.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Tester" />
       <item itemvalue="Application.ReadTester" />
-      <item itemvalue="Application.ReportTester" />
       <item itemvalue="Application.WriteTester" />
+      <item itemvalue="Kotlin.JSONReaderKt" />
       <item itemvalue="Kotlin.FileTesterKt" />
-      <item itemvalue="Kotlin.TicketKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.JSONReaderKt" />
+        <item itemvalue="Application.Tester" />
         <item itemvalue="Kotlin.FileTesterKt" />
         <item itemvalue="Application.WriteTester" />
         <item itemvalue="Application.ReadTester" />
-        <item itemvalue="Kotlin.TicketKt" />
-        <item itemvalue="Application.ReportTester" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723908564370</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="7-6, 活用 Kotlin 的檔案輸出與輸入;">
+      <option name="closed" value="true" />
+      <created>1723909553850</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723909553850</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,7 +414,8 @@
     <MESSAGE value="7-3, Java FileUnputStream Read data.txt;" />
     <MESSAGE value="7-4, 使用緩衝區 BufferedReader{} readLine();" />
     <MESSAGE value="7-5, Java 輸出到檔案, mkdir建立檔案夾;" />
-    <option name="LAST_COMMIT_MESSAGE" value="7-5, Java 輸出到檔案, mkdir建立檔案夾;" />
+    <MESSAGE value="7-6, 活用 Kotlin 的檔案輸出與輸入;" />
+    <option name="LAST_COMMIT_MESSAGE" value="7-6, 活用 Kotlin 的檔案輸出與輸入;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
