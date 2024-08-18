@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="7-6, 活用 Kotlin 的檔案輸出與輸入;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/network/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/hank/JSONReader.kt" afterDir="false" />
+    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="7-7, Java Kotlin 網路連線;">
+      <change afterPath="$PROJECT_DIR$/mcdonalds.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/McDonalds.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +44,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,13 +96,13 @@
       <recent name="com.hank.student" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.JSONReaderKt">
-    <configuration name="ReadTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hank.io.ReadTester" />
+  <component name="RunManager" selected="Application.McDonalds">
+    <configuration name="McDonalds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hank.McDonalds" />
       <module name="myproject_2024_08.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hank.io.*" />
+          <option name="PATTERN" value="com.hank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,19 +151,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.McDonalds" />
       <item itemvalue="Application.Tester" />
-      <item itemvalue="Application.ReadTester" />
       <item itemvalue="Application.WriteTester" />
       <item itemvalue="Kotlin.JSONReaderKt" />
       <item itemvalue="Kotlin.FileTesterKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.McDonalds" />
         <item itemvalue="Kotlin.JSONReaderKt" />
         <item itemvalue="Application.Tester" />
         <item itemvalue="Kotlin.FileTesterKt" />
         <item itemvalue="Application.WriteTester" />
-        <item itemvalue="Application.ReadTester" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +376,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723909553850</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="7-7, Java Kotlin 網路連線;">
+      <option name="closed" value="true" />
+      <created>1723945008662</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1723945008662</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,7 +399,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="2-1, 設計認類別 class" />
     <MESSAGE value="2-3, 變數, 資料型態, 初始值, 給值;" />
     <MESSAGE value="3-1, 類別屬性 Property, Java &amp; Kotlin 數值運算;" />
@@ -415,7 +423,8 @@
     <MESSAGE value="7-4, 使用緩衝區 BufferedReader{} readLine();" />
     <MESSAGE value="7-5, Java 輸出到檔案, mkdir建立檔案夾;" />
     <MESSAGE value="7-6, 活用 Kotlin 的檔案輸出與輸入;" />
-    <option name="LAST_COMMIT_MESSAGE" value="7-6, 活用 Kotlin 的檔案輸出與輸入;" />
+    <MESSAGE value="7-7, Java Kotlin 網路連線;" />
+    <option name="LAST_COMMIT_MESSAGE" value="7-7, Java Kotlin 網路連線;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
