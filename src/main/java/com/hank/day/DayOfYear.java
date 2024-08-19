@@ -11,8 +11,9 @@ public class DayOfYear {
     public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
 //        int year = scanner.nextInt();
-
+        int[] months = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         Calendar now = Calendar.getInstance();
+//        System.out.println(now.get(Calendar.DAY_OF_YEAR));
         int year = now.get(Calendar.YEAR);
         int month = now.get(Calendar.MONTH) + 1;
         int day = now.get(Calendar.DAY_OF_MONTH);
@@ -25,14 +26,23 @@ public class DayOfYear {
 
             System.out.println("Please enter month:");
             String monthString = reader.readLine();
-            month = ((monthString.length() > 0))?Integer.parseInt(monthString):month;
+            month = ((monthString.length() > 0)) ? Integer.parseInt(monthString) : month;
             System.out.println(month);
 
             System.out.println("Please enter day:");
             String dayString = reader.readLine();
-            day =(dayString.length() > 0)?Integer.parseInt(dayString):day;
+            day = (dayString.length() > 0) ? Integer.parseInt(dayString) : day;
             System.out.println(day);
 
+            int days = 0;
+            for (int i = 0; i < month - 1; i++) {
+                days += months[i];
+            }
+            days += day;
+            if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
+                days++;
+            }
+            System.out.println(days);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
