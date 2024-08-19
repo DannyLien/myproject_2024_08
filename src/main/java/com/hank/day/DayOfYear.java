@@ -14,14 +14,24 @@ public class DayOfYear {
 
         Calendar now = Calendar.getInstance();
         int year = now.get(Calendar.YEAR);
+        int month = now.get(Calendar.MONTH) + 1;
+        int day = now.get(Calendar.DAY_OF_MONTH);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         try {
             System.out.println("Please enter year:");
             String yearString = reader.readLine();
-            if (yearString.length() > 0) {
-                year = Integer.parseInt(yearString);
-            }
+            year = (yearString.length() > 0) ? Integer.parseInt(yearString) : year;
             System.out.println(year);
+
+            System.out.println("Please enter month:");
+            String monthString = reader.readLine();
+            month = ((monthString.length() > 0))?Integer.parseInt(monthString):month;
+            System.out.println(month);
+
+            System.out.println("Please enter day:");
+            String dayString = reader.readLine();
+            day =(dayString.length() > 0)?Integer.parseInt(dayString):day;
+            System.out.println(day);
 
         } catch (IOException e) {
             throw new RuntimeException(e);
