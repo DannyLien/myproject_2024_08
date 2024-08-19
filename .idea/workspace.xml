@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="8-3, 取得年,月,日, 3元運算式;">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hank/day/DayOfYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hank/day/DayOfYear.java" afterDir="false" />
+    <list default="true" id="829eabba-5343-4e47-b748-1337dba081e8" name="Changes" comment="8-4, 陣列, 邏輯, 閏年判斷;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hank/day/HomeWorkLeapYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,9 +94,22 @@
       <recent name="com.hank.student" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DayOfYear">
+  <component name="RunManager" selected="Application.HomeWorkLeapYear">
     <configuration name="DayOfYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hank.day.DayOfYear" />
+      <module name="myproject_2024_08.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hank.day.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWorkLeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hank.day.HomeWorkLeapYear" />
       <module name="myproject_2024_08.main" />
       <extension name="coverage">
         <pattern>
@@ -133,13 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileTesterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hank.FileTesterKt" />
-      <module name="myproject_2024_08.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JSONReaderKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hank.JSONReaderKt" />
       <module name="myproject_2024_08.main" />
@@ -148,19 +155,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.HomeWorkLeapYear" />
       <item itemvalue="Application.DayOfYear" />
       <item itemvalue="Application.McDonalds" />
       <item itemvalue="Application.Tester" />
       <item itemvalue="Kotlin.JSONReaderKt" />
-      <item itemvalue="Kotlin.FileTesterKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWorkLeapYear" />
         <item itemvalue="Application.DayOfYear" />
         <item itemvalue="Application.McDonalds" />
         <item itemvalue="Kotlin.JSONReaderKt" />
         <item itemvalue="Application.Tester" />
-        <item itemvalue="Kotlin.FileTesterKt" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724034655672</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="8-4, 陣列, 邏輯, 閏年判斷;">
+      <option name="closed" value="true" />
+      <created>1724035238515</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1724035238515</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +443,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3-3, Java Kotlin 建構子, 次要建構子;" />
     <MESSAGE value="3-5, 設計類別:有屬性+建構子+方法, 案例+整合;" />
     <MESSAGE value="4-1, 活用Java 猿聲類別 Scanner, 重音 ` ;" />
     <MESSAGE value="4-2, 活用 String字串資料型態與 Kotlin的 null檢查;" />
@@ -453,7 +467,8 @@
     <MESSAGE value="8-1, 案例目的與起步;" />
     <MESSAGE value="8-2, Java Calendar應用;" />
     <MESSAGE value="8-3, 取得年,月,日, 3元運算式;" />
-    <option name="LAST_COMMIT_MESSAGE" value="8-3, 取得年,月,日, 3元運算式;" />
+    <MESSAGE value="8-4, 陣列, 邏輯, 閏年判斷;" />
+    <option name="LAST_COMMIT_MESSAGE" value="8-4, 陣列, 邏輯, 閏年判斷;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
